@@ -4,7 +4,7 @@ https://www.hackerrank.com/challenges/crush/problem?h_l=interview&playlist_slugs
 
 import java.util.*;
 
-public class array_manipulation {
+public class ArrayManipulation {
 
   static long arrayManipulation(int n, int[][] queries) {
     //initiate array with length
