@@ -4,27 +4,15 @@
 
 const assert = require('assert')
 
-// function makeAnagram(a, b) {
-//   let freqs = {};
-//   a.split('').forEach(char => freqs[char] = (freqs[char] || 0) + 1); // increment
-//   b.split('').forEach(char => freqs[char] = (freqs[char] || 0) - 1); // decrement
-
-// var result = Object.keys(freqs).reduce((sum, key) => sum + Math.abs(freqs[key]), 0);
-
-//   console.log(result)
-//   return result
-// }
-
-
 function makeAnagram(a, b) {
-  let freqs = {} //stores number of time a char show up
+  let freqs = {};
+  a.split('').forEach(char => freqs[char] = (freqs[char] || 0) + 1); // increment
+  b.split('').forEach(char => freqs[char] = (freqs[char] || 0) - 1); // decrement
 
-  var aArray= a.split('')
-  var bArray = b.split('')
+var result = Object.keys(freqs).reduce((sum, key) => sum + Math.abs(freqs[key]), 0);
 
-  for char in aArray{
-
-  }
+  console.log(result)
+  return result
 }
 
 
