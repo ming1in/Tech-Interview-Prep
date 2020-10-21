@@ -7,7 +7,7 @@
  * https://www.geeksforgeeks.org/implementation-queue-javascript/?ref=lbp
  */
 
-export class Queue{
+class Queue{
   constructor() {
     this.items = [];
   } 
@@ -60,4 +60,6 @@ export class Queue{
     console.log(str)
     return str;
   } 
- }
+}
+ 
+module.exports = Queue

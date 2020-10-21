@@ -15,12 +15,6 @@ public class fibonacci {
 
     return fib_rec(num - 1) + fib_rec(num - 2);
   }
-
-  
-
-
-
-  
   public static void main(String[] args) {
     System.out.println( fib_rec(5));
   }
