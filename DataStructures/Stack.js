@@ -6,7 +6,7 @@
  * https://www.geeksforgeeks.org/implementation-stack-javascript/
  */
 
-export class Stack{
+class Stack{
   constructor() {
     this.items =[]
   }
@@ -51,8 +51,10 @@ export class Stack{
       string += `${item}, `
     })
 
+    console.log(string)
     return string
   }
 
-
 }
+
+module.exports = Stack
