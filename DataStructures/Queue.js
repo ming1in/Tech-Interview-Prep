@@ -13,6 +13,7 @@ class Queue{
   } 
 
   /**
+   * @description add a new element to the end of the queue.
    * @param {*} element that will be added to queue
    */
   enqueue(element) {
@@ -21,6 +22,7 @@ class Queue{
   } 
 
   /**
+   * @description remove the element from the front of the queue
    * @returns element that was removed from queue
    * @returns -1 if the queue is empty
    */
