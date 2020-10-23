@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-memo=[]
+var memo=[]
 
 /**
  * @description this function returns number n within fibonacci sequence. 
@@ -8,7 +8,7 @@ memo=[]
  * 
  * This has a O(n) Big-O time complexity 
  * 
- * @param {*} n number you want from the fibonnaci sequence
+ * @param {*} n number you want from the fibonacci sequence
  * @param {*} memo array that store previous results  
  */
 function fibonacciMemo(n, memo) {

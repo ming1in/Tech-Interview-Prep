@@ -9,7 +9,7 @@ const PalindromeChecker = (str) => {
     stack.push(char)
   });
 
-  for (let i = strArray.length - 1; i >= 0; i--){
+  for (let i = 0; i < strArray.length; i++){
 
     if (stack.pop() !== strArray[i]) {
       break
