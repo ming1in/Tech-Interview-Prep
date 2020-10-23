@@ -1,0 +1,3 @@
+**Binary Tree**
+  - A tree whose element has AT MOST two children
+  - A binary tree has no order

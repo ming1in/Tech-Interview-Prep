@@ -1,0 +1,17 @@
+**Stacks**
+  - A linear data structure that is based on the LIFO principle
+    - LIFO: Last In, First Out
+
+  - Typically Stacks are implemented using Arrays as well
+
+  - For example, a 'Stack' of plates where you usually only add and remove plates
+    from the top
+
+
+**Operations of a Stack**
+  - Stacks only have 2 basic operation
+    - Push, adding a element to the top of the Stack
+      - JS: push()
+      
+    - Pop, removing element from the top of the Stack
+      - JS: pop()

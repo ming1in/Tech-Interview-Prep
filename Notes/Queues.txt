@@ -1,0 +1,16 @@
+**Queue**
+  - A linear data structure that is based on the FIFO principle
+    - FIFO: first in, first out
+
+  - Typically Queues are implemented using Arrays
+
+  - A good physical representation of a Queue is a line of people, where 
+    the individual at the beginning of the line would be the first to leave
+
+
+**Operations of a Queue**
+  - Queues only have 2 basic operation
+    - Enqueue, adding a element to the back of the Queue
+      - JS: push()
+    - Dequeue, removing element from the start of the Queue
+      - JS: shift()

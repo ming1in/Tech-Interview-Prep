@@ -15,7 +15,7 @@ class Node {
   }
 }
 
-export class BinarySearchTree{
+class BinarySearchTree{
   constructor() {
     // root of a binary search tree 
     this.root = null;
@@ -25,7 +25,7 @@ export class BinarySearchTree{
    * @param {*} data that you want to insert into BST
    */
   insert(data) {
-    // Creating a node and initailising with data  
+    // Creating a node and initializing with data  
     var newNode = new Node(data);
 
     // root is null then node will be added to the tree and made root. 
@@ -134,7 +134,7 @@ export class BinarySearchTree{
    * @param {*} node where traversal is started
    */
   inorder(node) {
-    if (node !== null) {
+    if (node) {
       this.inorder(node.left);
       console.log(node.data);
       this.inorder(node.right);
@@ -146,7 +146,7 @@ export class BinarySearchTree{
   * @param {*} node where traversal is started
   */
   preorder(node) {
-    if (node !== null) {
+    if (node) {
       console.log(node.data);
       this.preorder(node.left);
       this.preorder(node.right);
@@ -158,7 +158,7 @@ export class BinarySearchTree{
   * @param {*} node where traversal is started
   */
   postorder(node) {
-    if (node !== null) {
+    if (node) {
       this.postorder(node.left);
       this.postorder(node.right);
       console.log(node.data);
@@ -209,6 +209,55 @@ export class BinarySearchTree{
       return node;
   } 
 
+  breadthFirst(root) {
+    var height = this.height(this.root)
+
+    for (let i = 1; i < height + 1; i++){
+      this.printLevel(root, i)
+    }
+  }
 
 
+  /**
+   * @description prints the nodes at the given level
+   * @param {*} root  
+   * @param {*} level 
+   */
+  printLevel(root, level) {
+    if (!root) {
+      return 
+    }
+
+    if (level == 1) {
+      console.log(root.data, )
+      return root.data
+    } else if (level > 1) {
+      this.printLevel(root.left, level - 1)
+      this.printLevel(root.right, level -1)
+    }
+  }
+
+  height(root) {
+    if (!root) {
+      return 0
+    } else {
+      var leftSubTree = this.height(root.left) + 1
+      var rightSubTree = this.height(root.right) + 1
+    }
+
+    return Math.max(leftSubTree, rightSubTree)
+  }
 }
+
+
+let bst = new BinarySearchTree()
+
+bst.insert(0)
+bst.insert(1)
+bst.insert(3)
+bst.insert(4)
+bst.insert(2)
+
+bst.breadthFirst(bst.getRoot())
+
+module.exports = BinarySearchTree

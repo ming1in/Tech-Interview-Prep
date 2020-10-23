@@ -1,7 +1,10 @@
-- typically during a dynamic programming questions there are 2 approaches
-  1. recursion & store (memoization AKA top-down)
-    - if your recursive solutions has repeated steps, using memoization 
-    should make your solution more efficient
-  2. bottom up (tabulation)
-    - approach that is built upon a base case and follows a relation until
-    you reach the result. 
+**Dynamic Programming**
+  - Typically during a dynamic programming questions there are 2 approaches:
+
+    1. recursion & store (memoization AKA top-down)
+      - if your recursive solutions has repeated steps, using memoization 
+      should make your solution more efficient
+
+    2. bottom up (tabulation)
+      - approach that is built upon a base case and follows a relation until
+      you reach the result. 

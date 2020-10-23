@@ -1,0 +1,31 @@
+**Binary Search Trees**
+  - A binary tree that is ordered based on some additional properties
+
+
+**Properties of BST**
+  - Left node is LESSER than root
+  - Right node is GREATER than root
+  - The left and right subtrees must be BSTs as well
+  - There are no duplicate nodes
+
+
+**Depth First(Level Order) Traversal** 
+  - Inorder Traversal
+    - Returns the nodes in increasing order
+    - Steps(Left, Root, Right)
+      1. Traverse the left subtree, i.e., call Inorder(left-subtree)
+      2. Visit the root.
+      3. Traverse the right subtree, i.e., call Inorder(right-subtree)
+
+  - Preorder Traversal
+    - Steps(Root, Left, Right)
+      1. Visit the root.
+      2. Traverse the left subtree, i.e., call Preorder(left-subtree)
+      3. Traverse the right subtree, i.e., call Preorder(right-subtree)
+
+  - Postorder Traversal
+    - Steps(Left, Right, Root)
+      1. Traverse the left subtree, i.e., call Postorder(left-subtree)
+      2. Traverse the right subtree, i.e., call Postorder(right-subtree)
+      3. Visit the root.
+
