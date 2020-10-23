@@ -7,6 +7,7 @@
  * https://www.geeksforgeeks.org/
  */
 
+const Queue = require('../Queue')
 class Node {
   constructor(data) {
     this.data = data;
@@ -131,6 +132,9 @@ class BinarySearchTree{
 
   /**
    * @description traversals tree in order starting from a given node
+   * 
+   * O(n) time-space complexity
+   * 
    * @param {*} node where traversal is started
    */
   inorder(node) {
@@ -143,6 +147,9 @@ class BinarySearchTree{
 
   /**
   * @description performs preorder traversals starting from a given node
+  * 
+  * O(n) time-space complexity
+  * 
   * @param {*} node where traversal is started
   */
   preorder(node) {
@@ -155,6 +162,9 @@ class BinarySearchTree{
 
   /**
   * @description performs postorder traversals starting from a given node
+  * 
+  * O(n) time-space complexity
+  * 
   * @param {*} node where traversal is started
   */
   postorder(node) {
@@ -209,31 +219,26 @@ class BinarySearchTree{
       return node;
   } 
 
-  breadthFirst(root) {
-    var height = this.height(this.root)
-
-    for (let i = 1; i < height + 1; i++){
-      this.printLevel(root, i)
-    }
-  }
-
-
   /**
    * @description prints the nodes at the given level
-   * @param {*} root  
-   * @param {*} level 
+   * 
+   * This has a O(2^n) time complexity because the worse case could be
+   * a skewed tree.
+   * 
+   * @param {*} root node
+   * @param {*} level of tree that should be returned
    */
   printLevel(root, level) {
     if (!root) {
-      return 
+      return
     }
 
     if (level == 1) {
-      console.log(root.data, )
+      console.log(root.data,)
       return root.data
     } else if (level > 1) {
       this.printLevel(root.left, level - 1)
-      this.printLevel(root.right, level -1)
+      this.printLevel(root.right, level - 1)
     }
   }
 
@@ -247,17 +252,72 @@ class BinarySearchTree{
 
     return Math.max(leftSubTree, rightSubTree)
   }
+
+
+  /**
+   * @description performs a Breadth-First Traversal. 
+   * 
+   * This has a O(2^n) time complexity because the worse case could be 
+   * a skewed tree, so printLevel() could take O(n). So time complexity of 
+   * printLevelOrder() is O(n) + O(n-1) + O(n-2) + .. + O(1) which is O(n^2).
+   * 
+   * @param {*} root node of BST
+   */
+  breadthFirst(root) {
+    var height = this.height(this.root)
+
+    for (let i = 1; i < height + 1; i++){
+      this.printLevel(root, i)
+    }
+  }
+
+  /**
+   * @description performs a more efficient BFT than breadthFirst()
+   * 
+   * This has a O(n), n = number of nodes, time complexity because it only
+   * iterates through each node once. Making this more efficient that breadFirst()
+   * 
+   * @param {*} root node of BST
+   */
+  breadthFirst2(root) {
+    var queue = new Queue()
+    var current = root
+    var traversal = []
+
+    console.log(current)
+    while (current != null) {
+      traversal.push(current.data)
+      queue.enqueue(current.left)
+      queue.enqueue(current.right)
+      current = queue.dequeue()
+    }
+
+    console.log(traversal)
+    return traversal
+  }
 }
 
+/** Example BST #1
+ *         8
+ *       /   \
+ *      3     10
+ *     / \      \
+ *    1   6     14
+ *       / \    /
+ *      4   7  13
+ */ 
+let bst1 = new BinarySearchTree()
+bst1.insert(8)
+bst1.insert(3)
+bst1.insert(10)
+bst1.insert(1)
+bst1.insert(6)
+bst1.insert(14)
+bst1.insert(4)
+bst1.insert(7)
+bst1.insert(13)
 
-let bst = new BinarySearchTree()
-
-bst.insert(0)
-bst.insert(1)
-bst.insert(3)
-bst.insert(4)
-bst.insert(2)
-
-bst.breadthFirst(bst.getRoot())
+// bst1.breadthFirst(bst1.getRoot())
+bst1.printLevel(bst1.getRoot(), 4)
 
 module.exports = BinarySearchTree

@@ -1,0 +1,9 @@
+**Skewed Trees**
+  - A special type of Binary Tree where all nodes have only 1 child
+
+  - Child nodes are either all to the left or to the right
+
+  - Based on the property of a Skewed Tree it is really comparable to a Linked List
+
+**Resources**
+Skewed Trees: https://www.geeksforgeeks.org/skewed-binary-tree/#:~:text=A%20skewed%20binary%20tree%20is,one%20child%20or%20no%20child.&text=There%20are%202%20special%20types,1.&text=These%20are%20those%20skewed%20binary,or%20no%20child%20at%20all.

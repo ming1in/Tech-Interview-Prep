@@ -38,7 +38,12 @@ function printLevel(root, level) {
   }
 }
 /**
- * @description https://www.geeksforgeeks.org/level-order-tree-traversal/
+ * @description performs a Breadth-First Traversal
+ * 
+ * This has a O(n), n = number of nodes, time complexity because it only
+ * iterates through each node once. Making this more efficient that breadFirst()
+ *
+ * https://www.geeksforgeeks.org/level-order-tree-traversal/
  * 
  * @param {*} root of tree
  */
@@ -57,7 +62,15 @@ function breadthFirst(root) {
   return traversal 
 }
 
-
+/** Example Tree #1
+ * 
+ *        1
+ *       / \
+ *      2   3
+ *     / \
+ *    4   5
+ * 
+ */
 var root = new BinaryTreeNode(1)
 root.left = new BinaryTreeNode(2)
 root.right = new BinaryTreeNode(3)
