@@ -1,0 +1,60 @@
+**Steps**
+1. Online assessment: 7 question in Java/C++/C in 21min
+
+2. Online assessment: virtual simulator of day at Amazon, review code, and debugging
+
+3. Video Chat Interview: start with behavioral question, technical Q&A, and then 
+   coding challenge. Should get a response 3-5 days later
+
+
+**Behavior Q&A**
+
+10/23/2020
+- tell me about a time where you had to had to decide whether to stop or continue a project.
+- Tell me about a time when a team project was not going well
+ 
+
+**Technical Q&A**
+
+10/23/2020
+- What is a dictionary or hash?
+- What is a binary search tree?
+- What is a Breadth First Traversal and it worse case runtime?
+
+
+**Key Notes**
+- Amazon asks alot of questions about trees and runtimes
+- Make sure to know the Leadership Principles at Amazon and weave them in behavior responses
+ 
+
+**Post Interview Takeaways**
+
+Video Chat Interview(Ming) | 10/23/2020 
+- Interview with a Amazon SDE, Jennifer Yu, working in supply chain, building internal 
+  software not consumer-facing work. Asked simply behavior questions that were based on 
+  projects and experience I had on my resume. In the technical Q&A, she asked a lot of questions
+  about trees specifically breadth first traversal, binary tree, big-O runtime. The coding challenge
+  was to find the sum of nodes at the lowest depth. 
+  
+  I felt that I was able to answer the behavior questions and technical Q&A really well. I was able to 
+  walk her through some cool projects such as fulament, serenity girls, and gedcom parser. I talked about
+  I intrigued I was able Amazons culture and my knowledge of Amazon's history and Jeff Bezos. The interviewer
+  told me about a really cool book about Amazon when she first started, thought that was really cool. During
+  the coding challenge I feel that I articulated my thought process well and was able to clearly speak my mind.
+  My first approach was overly complicated, but was able to pivot a simpler solutions use BFT and I think I 
+  was on the right track when she nodded in approval. Ultimately, I was not able to solve the challenge completely,
+  but I think I was going in the right direction and couldn't piece together the last bits.
+  
+- Coding Challenge: ('../../CodingChallenges/Amazon/SumLowestLevel.js)
+
+- My Questions:
+  1. What was your first day at Amazon like?
+  2. What were some regrets you have during the course of your engineering career?
+
+
+**Resources**
+- Interviewing at Amazon: https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon
+
+- Leadership Principles: https://www.amazon.jobs/en/principles
+
+- Amazon Software Development Topics: https://www.amazon.jobs/en/landing_pages/software-development-topics
