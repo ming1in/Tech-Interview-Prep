@@ -8,14 +8,12 @@
 
 
 **Behavior Q&A**
-
 10/23/2020
 - tell me about a time where you had to had to decide whether to stop or continue a project.
 - Tell me about a time when a team project was not going well
  
 
 **Technical Q&A**
-
 10/23/2020
 - What is a dictionary or hash?
 - What is a binary search tree?
@@ -28,7 +26,6 @@
  
 
 **Post Interview Takeaways**
-
 Video Chat Interview(Ming) | 10/23/2020 
 - Interview with a Amazon SDE, Jennifer Yu, working in supply chain, building internal 
   software not consumer-facing work. Asked simply behavior questions that were based on 
@@ -50,6 +47,23 @@ Video Chat Interview(Ming) | 10/23/2020
 - My Questions:
   1. What was your first day at Amazon like?
   2. What were some regrets you have during the course of your engineering career?
+
+
+**Amazon Leadership Principles**
+- Customer Obsession
+- Ownership
+- Invent and Simplify
+- Are Right, A Lot
+- Learn and Be Curious
+- Hire and Develop the Best
+- Insist on the Highest Standards
+- Think Big
+- Bias for Action
+- Frugality
+- Earn Trust
+- Dive Deep
+- Have Backbone; Disagree and Commit
+- Deliver Results
 
 
 **Resources**
