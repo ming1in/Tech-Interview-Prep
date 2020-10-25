@@ -1,4 +1,4 @@
-def calculateWindowMinimums(num, stockPriceDelta, windowSize):
+def CalculateWindowMinimums(num, stockPriceDelta, windowSize):
 
   minimumValues = []
   i = 0
@@ -14,4 +14,4 @@ def calculateWindowMinimums(num, stockPriceDelta, windowSize):
   return(minimumValues)
 
 
-calculateWindowMinimums(5, [4,2,12,11,-5], 2) #output: [2,2,11,-5]
+CalculateWindowMinimums(5, [4,2,12,11,-5], 2) #output: [2,2,11,-5]
