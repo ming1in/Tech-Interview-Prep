@@ -15,6 +15,7 @@ class TreeNode{
 
 var sum = 0
 var maxLevel = -1
+
 /**
  * @description this functions gets the sum of all the nodes at the lowest
  * level within a binary tree. While traversing through the nodes, compare the level
@@ -46,16 +47,30 @@ function SumLowestLevel(root, level) {
   SumLowestLevel(root.right, level + 1)
 }
 
+function getHeight(root) {
+  if (!root) {
+    return 0
+  } else {
+    var leftSubtree = getHeight(root.left) + 1
+    var rightSubtree = getHeight(root.right) + 1
+  }
+
+  return Math.max(leftSubtree, rightSubtree)
+}
+
 function bft(root) {
   var queue = []
   var current = root
+  var traversal = []
 
   while (current !== null) {
-    console.log(current.data)
+    traversal.push(current.data)
     queue.push(current.left)
     queue.push(current.right)
     current = queue.shift()
   }
+
+  return traversal
 }
 
 /**
@@ -73,7 +88,7 @@ tree.left.right = new TreeNode(5)
 tree.right.left = new TreeNode(6)
 tree.right.right = new TreeNode(7) 
 
-bft(tree)
-
+console.log(bft(tree))
+console.log(getHeight(tree))
 SumLowestLevel(tree, 0)
 console.log(sum)
