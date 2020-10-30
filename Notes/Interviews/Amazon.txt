@@ -1,5 +1,5 @@
 **Steps**
-1. Online assessment: 7 question in Java/C++/C in 21min
+1. Online assessment: 7 debugging questions in Java/C++/C in 21min
 
 2. Online assessment: virtual simulator of day at Amazon, review code, and debugging
 
