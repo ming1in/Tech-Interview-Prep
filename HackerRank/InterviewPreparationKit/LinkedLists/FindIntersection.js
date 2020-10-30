@@ -40,7 +40,6 @@ function findIntersection(rootA, rootB) {
     }
     currentB = currentB.next
   }
-
 }
 
 var sll_1 = new SLLNode(1)
