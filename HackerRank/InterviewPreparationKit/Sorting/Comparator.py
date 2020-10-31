@@ -12,7 +12,7 @@ class Player:
         self.name = None
         self.score = None
 
-    def comparator(a, b):
+    def comparator(self, a, b):
         if a.score > b.score:
             return -1
         elif a.score < b.score:
