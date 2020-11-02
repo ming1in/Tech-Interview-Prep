@@ -1,0 +1,36 @@
+** Relational Database Management Systems(RDBMS) ***
+
+*** Identifiers ***
+- Every row in a collection table has a primary key that should be universally unique.
+
+- Types of identifers:
+  - Foreign key: an identifer that is a primary key of a row in another table and can be used reference that row.
+    - Row can contain multiple foreign keys to reference other rows in a table
+
+  - Surrogate key: an identifer than has no relation to anything in the real-world
+
+  - Natural key: an identifier that is derived from something in the real-world (i.e SSN)
+
+  - Composite keys: an identifer that is a combination of items from two rows because one row is not able to 
+    uniquely identify the row in the table
+    - Sometime a composite key can be comprised of two primary keys
+
+
+*** SQL(Structured Query Language) ***
+- SQL is a language used to interact with Relational Database Management System(RDBMS)
+
+- You can use SQL to:
+  - Create, Read, Update, Delete (CRUD)
+  - Perform administrative task such as security, import/export
+
+- SQL is a hybrid language, comprised of 4 types of languages
+  - Data Query Language: used to query databases and retrieve data 
+  - Data Definition Language: used to define database schemas
+  - Data Control Language: use to control access to database, users & permission management
+  - Data Manipulation Language: used to insert, update, or delete items in database
+
+
+** Queries **
+- a set of instruction given to a RDBMS that tells the RDBMS what information you want to retrieve
+
+- 

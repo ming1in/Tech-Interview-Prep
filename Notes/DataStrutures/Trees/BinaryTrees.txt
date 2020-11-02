@@ -1,3 +1,8 @@
 **Binary Trees**
   - A tree whose element has AT MOST two children
   - A binary tree has no order
+
+** Find Operation **
+- The time complexity to find a element in a BT is:
+  - Unbalanced: O(n)
+  - Balanced: O(log(n))
