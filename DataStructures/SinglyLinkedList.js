@@ -12,14 +12,9 @@ class Node{
     this.element = element
     this.next = null
   }
-
-  constructor(element, next) {
-    this.element = element
-    this.next = next
-  }
 }
 
-export class SinglyLinkedList{
+class SinglyLinkedList{
   constructor() {
     this.head = null
     this.size = 0
@@ -203,3 +198,5 @@ export class SinglyLinkedList{
     return str
   }
 }
+
+module.exports = SinglyLinkedList
