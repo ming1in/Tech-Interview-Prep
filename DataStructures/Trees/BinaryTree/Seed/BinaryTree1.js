@@ -1,4 +1,3 @@
-const BinaryTreeNode = require('../BinaryTreeNode')
 
 /** Example Tree #1
  *
