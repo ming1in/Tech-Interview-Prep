@@ -5,6 +5,16 @@ class SLLNode{
   }
 }
 
+
+/**
+ * @description This function merged two sorted singly linked list together. This is done
+ * by using recursion, but before recursing check which head is smaller
+ *
+ * https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+ * 
+ * @param {*} head1 
+ * @param {*} head2 
+ */
 function MergeSortedLinkedLists(head1, head2) {
   if (!head1) {
     return head2

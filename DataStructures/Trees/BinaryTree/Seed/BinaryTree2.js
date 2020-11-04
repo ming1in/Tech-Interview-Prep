@@ -9,10 +9,10 @@ const BinaryTreeNode = require('../BinaryTreeNode')
  *    4   5
  *
  */
-var BinaryTree1 = new BinaryTreeNode(1)
-BinaryTree1.left = new BinaryTreeNode(2)
-BinaryTree1.right = new BinaryTreeNode(3)
-BinaryTree1.left.left = new BinaryTreeNode(4)
-BinaryTree1.left.right = new BinaryTreeNode(5)
+var BinaryTree2 = new BinaryTreeNode(1)
+BinaryTree2.left = new BinaryTreeNode(2)
+BinaryTree2.right = new BinaryTreeNode(3)
+BinaryTree2.left.left = new BinaryTreeNode(4)
+BinaryTree2.left.right = new BinaryTreeNode(5)
 
-module.exports = BinaryTree1
+module.exports = BinaryTree2
