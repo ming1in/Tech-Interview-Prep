@@ -1,3 +1,6 @@
+const bt5  = require("./Seed/BinaryTree5")
+
+  
   /**
 * @description performs postorder traversals starting from a given node
 *
@@ -9,8 +12,11 @@ function Postorder(root) {
   if (root) {
     Postorder(root.left)
     Postorder(root.right)
-    console.log(root)
+    console.log(root.data)
   }
+  return
 }
 
-module.export = Postorder
+Postorder(bt5)
+
+// module.exports = Postorder

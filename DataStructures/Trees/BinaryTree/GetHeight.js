@@ -1,4 +1,4 @@
-const { left } = require("../../../Seed/BinaryTree1")
+const bt1  = require("../../../Seed/BinaryTree1")
 
 function GetHeight(root) {
   if (!root) {
