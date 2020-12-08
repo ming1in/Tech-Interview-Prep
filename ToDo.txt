@@ -1,0 +1,23 @@
+To-Do List
+
+- CodingChallenges/HudsonRiverTrading/FindBestPlot.js
+- CodingChallenges/HudsonRiverTrading/MaxRook.js
+- CodingChallenges/HudsonRiverTrading/RelocateExpenses.js
+
+- CodingChallenges/Audible/SearchCircularSortedArray.js
+- CodingChallenges/Audible/ValidateUtf8.js
+
+- CodingChallenges/Atlassian/MergeTwoSortedArrays.js
+- CodingChallenges/Atlassian/PathsToAGoal.js
+- CodingChallenges/Atlassian/RollTheString.js
+
+- Algorithms/QuickSort.js
+
+- CodingChallenges/Citadel/HackerCards.js
+- CodingChallenges/Citadel/NonDegenerateTriangle.js
+
+- CodingChallenges/Wellsheet/ArrayChallenge.js
+
+- HackerRank/InterviewPreparationKit/Miscellaneous/FlippingBits.js
+
+- HackerRank/InterviewPreparationKit/Trees/CheckBST.py
