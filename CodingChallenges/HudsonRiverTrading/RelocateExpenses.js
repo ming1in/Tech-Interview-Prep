@@ -32,7 +32,7 @@
 const assert = require('assert')
 
 function RelocateExpenses(A) {
-  
+    
 }
 
 assert.equal(RelocateExpenses([10, -10, -1, -1, 10]), 1)

@@ -8,7 +8,7 @@
  * If he has to make one choice among several, he will always choose the lowest cost option. Determine 
  * which cards he will buy.
  * 
- * For example, Leanne's collection = [2,4,5] and make has d = 7 to spend. He can purchase a maximum 
+ * For example, Leanne's collection = [2,4,5] and Mike has d = 7 to spend. He can purchase a maximum 
  * of 2 cards, the 1 and the 3 to add to her collection. Two other options he has are 1 and 6(costs more) or 
  * 7(fewer cards, costs more).
  * 
@@ -26,4 +26,6 @@
 function hackerCards(collection, budget) {
    
 }
+
+assert.equal(hackerCards([2,4,5], 7), 2)
  
