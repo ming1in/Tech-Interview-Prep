@@ -7,9 +7,7 @@ To-Do List
 - CodingChallenges/Audible/SearchCircularSortedArray.js
 - CodingChallenges/Audible/ValidateUtf8.js
 
-- CodingChallenges/Atlassian/MergeTwoSortedArrays.js
 - CodingChallenges/Atlassian/PathsToAGoal.js
-- CodingChallenges/Atlassian/RollTheString.js
 
 - Algorithms/QuickSort.js
 
@@ -21,3 +19,5 @@ To-Do List
 - HackerRank/InterviewPreparationKit/Miscellaneous/FlippingBits.js
 
 - HackerRank/InterviewPreparationKit/Trees/CheckBST.py
+
+- DataStructures/Heaps/MaxHeap.js
