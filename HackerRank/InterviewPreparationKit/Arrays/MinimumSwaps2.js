@@ -47,7 +47,7 @@ function minimumSwaps(arr) {
     
     if (edges > 0) {
       swaps += (edges > 1) ? edges - 1 : edges
-    }4
+    }
   }
 
   return swaps
