@@ -21,3 +21,6 @@ To-Do List
 - HackerRank/InterviewPreparationKit/Trees/CheckBST.py
 
 - DataStructures/Heaps/MaxHeap.js
+
+- CodingChallenges/IBM/DevOps/CardinalitySorting.js
+- CodingChallenges/IBM/DevOps/PickingTickets.js

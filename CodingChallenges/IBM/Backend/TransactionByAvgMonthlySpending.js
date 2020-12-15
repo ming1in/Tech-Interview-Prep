@@ -27,7 +27,6 @@ function getTotalPages(url) {
     })
   })
 }
-
 function getAverage(array) {
   return array.reduce((a, b) => a + b) / array.length
 }
