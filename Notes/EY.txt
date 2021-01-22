@@ -1,0 +1,104 @@
+Role: Financial Services Organization - Technology Consultant Program Summer Internship
+
+1. With that purpose in mind, why are you exploring a career at EY
+  and what interests yo, specifically, about the role you're applying for?
+
+  My curiosity with EY started ever since I moved into Hoboken and walked past
+
+  the massive EY offices on the Hoboken pier. This curiosity led to quick 
+  
+  google searches where I started truly learning and being captivated by
+  
+  the work at EY. I though it was awesome the way EY was applying cutting 
+  
+  edge technology, specifically software technologies, such as machine learning
+  
+  and blockchain. Now that I am a bit further along into my software career, 
+  
+  having done some freelance and consultation work as a software engineer, I
+  
+  have only become more interested in EY as consultation is a core product at
+  
+  EY. My curiosity about how EY tackles consultation and helps their customers
+  
+  adopt technologies is whats got me so excited about this opportunity to be
+  
+  a intern at EY's Technology Consultant program. I want to learn about how
+  
+  EY is helping clients transition and utilize technology in this modern
+  
+  technology revolution.
+
+
+2. Provide an example of a time when you improved the quality of work from 
+  your team. What was the driver for change? What steps did you take to 
+  implement the change and ensure continued quality.
+
+  A time I improved the quality of work for a team was during a class project
+  where we were tasked with parsing large genealogy data sets. Our team was a
+  a team of 8, the largest in the class which presented a challenge on it own.
+  When we started coding, there was a general consensus to 'figure it out as
+  we go' that quickly lead to issue related to version control and pushing code 
+  would often lead to merge conflicts. 
+  
+  This friction would ultimately be the driver for change. I started 
+  researching version control, github, and best practices. Then during a 
+  team meeting where we discussed this issue I proposed we implement pull 
+  requests so code can be reviewed by all team members before
+  being merged, utilizing branching, adding security to the master branch, and 
+  a naming scheme for all files and components of the project.
+  
+  To help smoothen the transition to this new system and utulizing what I 
+  learned through earlier research I paired with every team member and 
+  meticulously help merge their code using this new version control system. 
+  During the process I strengthen my own github and version control knowledge 
+  while teaching my teammates.
+
+3. With this perspective in mind, outline a disruptive or innovative idea 
+  you’ve introduced to a team. What was the disruptive or innovative idea, 
+  what problem was it solving and what was the outcome?
+
+  During this summer I joined a small team of engineers at a young startup. 
+  When I joined we were using React on the frontend and Google Firebase
+  as a serverless backend. We were focused on building features at the time
+  and did not have any automated testing or CI.
+
+  This lead me to propose we utulize a product from Google called Firebase 
+  Tools which allowed developers to run local instances of Firebase products
+  such as Firestore, Auth, and Cloud Functions.
+
+  Having this tool would mean...
+  - that the team could save money by not sending api requests to a 
+  production database
+  - that we had a mock environment to easily write automated tests
+  - that developers could have a better building experiences as they would 
+  be able to have their own local independent instance of firebase that they
+  could mess with.
+
+  ultimately, this tool allowed us to increase our velocity as a team and 
+  build much more robust systems by writing tests.
+
+
+4. Tell me about a new business technical skill or business technology 
+that you have recently learned. How do you keep up-to-date with and learn 
+about new technical skills or new technologies? How have you applied that 
+skill or expertise at work, in school or on a team?
+
+A new skill that I recently became interested in this winter break was
+machine learning. Through research and asking my network of friends who were
+already familar with ML I landed on quite a bit of online resources that 
+I used to learn about ML. I purchases a course on Udemy that was conveniently
+on sale and did a free course on Coursera taught by Andrew Ng who is a famous
+ML engineer and professor at Stanford. In addition to these courses I began 
+reading countless Medium articles about the latest ML trends such as
+AlphaFold 2 from the awesome engineers at Deepmind. 
+
+I have been able to apply my newfound knowledge mostly in conversations 
+with my peers and teammates. I found that having simple knowledge about the 
+nuances, arithmetic, and context to ML concepts have allowed to have much more
+deep conversation about ML. As a results, I have been able to learn quite 
+just by having conversations with people and learning from others experiences.
+All because I simply learned the basics of ML which open the doorway for me
+to learn much more. 
+
+5. 
