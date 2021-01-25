@@ -4,29 +4,17 @@ Role: Financial Services Organization - Technology Consultant Program Summer Int
   and what interests yo, specifically, about the role you're applying for?
 
   My curiosity with EY started ever since I moved into Hoboken and walked past
-
   the massive EY offices on the Hoboken pier. This curiosity led to quick 
-  
   google searches where I started truly learning and being captivated by
-  
   the work at EY. I though it was awesome the way EY was applying cutting 
-  
   edge technology, specifically software technologies, such as machine learning
-  
   and blockchain. Now that I am a bit further along into my software career, 
-  
   having done some freelance and consultation work as a software engineer, I
-  
   have only become more interested in EY as consultation is a core product at
-  
   EY. My curiosity about how EY tackles consultation and helps their customers
-  
   adopt technologies is whats got me so excited about this opportunity to be
-  
   a intern at EY's Technology Consultant program. I want to learn about how
-  
   EY is helping clients transition and utilize technology in this modern
-  
   technology revolution.
 
 
@@ -53,6 +41,7 @@ Role: Financial Services Organization - Technology Consultant Program Summer Int
   meticulously help merge their code using this new version control system. 
   During the process I strengthen my own github and version control knowledge 
   while teaching my teammates.
+
 
 3. With this perspective in mind, outline a disruptive or innovative idea 
   you’ve introduced to a team. What was the disruptive or innovative idea, 
@@ -100,5 +89,3 @@ deep conversation about ML. As a results, I have been able to learn quite
 just by having conversations with people and learning from others experiences.
 All because I simply learned the basics of ML which open the doorway for me
 to learn much more. 
-
-5. 
